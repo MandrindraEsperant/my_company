@@ -10,7 +10,7 @@ export async function generateStaticParams() {
 }
 
 export const metadata: Metadata = {
-  title: 'SYNERGY CODEX - Digital Excellence',
+  title: 'CLYSYS CODEX - Digital Excellence',
   description: 'Software Development, Cloud Infrastructure & Digital Marketing Solutions',
 };
 

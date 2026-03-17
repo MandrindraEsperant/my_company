@@ -7,13 +7,13 @@ const geist = Geist({ subsets: ["latin"], variable: '--font-sans' });
 const geistMono = Geist_Mono({ subsets: ["latin"], variable: '--font-mono' });
 
 export const metadata: Metadata = {
-  title: 'SYNERGY CODEX - Digital Excellence',
+  title: 'CLYSYS CODEX - Digital Excellence',
   description: 'Software Development, Cloud Infrastructure & Digital Marketing Solutions',
   icons: {
     icon: '/logo/synergy-codex.svg',
   },
 }
-
+ 
 export default function RootLayout({
   children,
 }: Readonly<{

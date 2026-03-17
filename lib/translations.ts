@@ -105,10 +105,10 @@ export const translations = {
     },
     // About Page
     about: {
-      title: 'About SYNERGY CODEX',
+      title: 'About CLYSYS CODEX',
       story: {
         heading: 'Our Story',
-        content: 'Founded in 2018, SYNERGY CODEX was born from a vision to bridge the gap between business needs and technology solutions. We started as a small team of developers and have grown into a multidisciplinary agency serving clients across Europe.',
+        content: 'Founded in 2018, CLYSYS CODEX was born from a vision to bridge the gap between business needs and technology solutions. We started as a small team of developers and have grown into a multidisciplinary agency serving clients across Europe.',
       },
       mission: {
         heading: 'Our Mission',
@@ -188,19 +188,19 @@ export const translations = {
         error: 'Failed to send message. Please try again.',
       },
       info: {
-        email: 'contact@synergycodeX.com',
+        email: 'contact@clysyscodeX.com',
         phone: '+33 (0) 1 23 45 67 89',
         address: 'Paris, France',
       },
     },
     // Footer
     footer: {
-      about: 'SYNERGY CODEX - Digital Excellence Through Innovation',
+      about: 'CLYSYS CODEX - Digital Excellence Through Innovation',
       quickLinks: 'Quick Links',
       services: 'Services',
       company: 'Company',
       legal: 'Legal',
-      copyright: '© 2024 SYNERGY CODEX. All rights reserved.',
+      copyright: '© 2024 CLYSYS CODEX. All rights reserved.',
     },
   },
   fr: {
@@ -306,10 +306,10 @@ export const translations = {
     },
     // About Page
     about: {
-      title: 'À Propos de SYNERGY CODEX',
+      title: 'À Propos de CLYSYS CODEX',
       story: {
         heading: 'Notre Histoire',
-        content: 'Fondée en 2018, SYNERGY CODEX est née d\'une vision de combler l\'écart entre les besoins commerciaux et les solutions technologiques. Nous avons commencé comme une petite équipe de développeurs et nous avons grandi pour devenir une agence multidisciplinaire servant des clients à travers l\'Europe.',
+        content: 'Fondée en 2018, CLYSYS CODEX est née d\'une vision de combler l\'écart entre les besoins commerciaux et les solutions technologiques. Nous avons commencé comme une petite équipe de développeurs et nous avons grandi pour devenir une agence multidisciplinaire servant des clients à travers l\'Europe.',
       },
       mission: {
         heading: 'Notre Mission',
@@ -389,19 +389,19 @@ export const translations = {
         error: 'Échec de l\'envoi du message. Veuillez réessayer.',
       },
       info: {
-        email: 'contact@synergycodeX.com',
-        phone: '+33 (0) 1 23 45 67 89',
-        address: 'Paris, France',
+        email: 'contact@clysyscodeX.com',
+        phone: '+261 (0) 38 06 900 32',
+        address: 'Antananarivo, Madagascar',
       },
     },
     // Footer
     footer: {
-      about: 'SYNERGY CODEX - Excellence Digital par l\'Innovation',
+      about: 'CLYSYS CODEX - Excellence Digital par l\'Innovation',
       quickLinks: 'Liens Rapides',
       services: 'Services',
       company: 'Entreprise',
       legal: 'Légal',
-      copyright: '© 2024 SYNERGY CODEX. Tous droits réservés.',
+      copyright: '© 2024 CLYSYS CODEX. Tous droits réservés.',
     },
   },
 };

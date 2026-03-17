@@ -42,7 +42,7 @@ export default function Footer({ lang }: { lang: Language }) {
           <div className="space-y-4">
             <div className="flex items-center gap-2">
               <div className="w-6 h-6 bg-gradient-to-r from-[#001F3F] via-[#00D9FF] to-[#7B2CBF] rounded-lg"></div>
-              <span className="font-bold text-lg bg-gradient-to-r from-[#001F3F] via-[#00D9FF] to-[#7B2CBF] bg-clip-text text-transparent">SYNERGY</span>
+              <span className="font-bold text-lg bg-gradient-to-r from-[#001F3F] via-[#00D9FF] to-[#7B2CBF] bg-clip-text text-transparent">CLYSYS</span>
             </div>
             <p className="text-sm text-muted-foreground">
               {t(lang, 'footer.about')}
