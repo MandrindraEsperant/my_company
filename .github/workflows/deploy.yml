@@ -37,3 +37,4 @@ jobs:
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           projectName: "mycompanywebsite"
           directory: ".vercel/output/static"
+          wranglerArguments: "--compatibility-flags nodejs_compat"
