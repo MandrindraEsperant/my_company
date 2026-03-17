@@ -82,7 +82,7 @@ export default function Footer({ lang }: { lang: Language }) {
 
         {/* Contact Info */}
         <div className="border-t border-border pt-8 mb-8">
-          <h3 className="font-semibold mb-4">{t(lang, 'contact.title')}</h3>
+          <h3 className="font-semibold mb-4">{t(lang, 'contact.title')}</h3> 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="flex items-center gap-3">
               <Mail size={20} className="text-primary" />

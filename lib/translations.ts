@@ -188,9 +188,9 @@ export const translations = {
         error: 'Failed to send message. Please try again.',
       },
       info: {
-        email: 'contact@clysyscodeX.com',
-        phone: '+33 (0) 1 23 45 67 89',
-        address: 'Paris, France',
+        email: 'contact@clysyscodeX.com', 
+        phone: '+261 (0) 38 06 900 32',
+        address: 'Antananarivo, Madagascar',
       },
     },
     // Footer
@@ -389,7 +389,7 @@ export const translations = {
         error: 'Échec de l\'envoi du message. Veuillez réessayer.',
       },
       info: {
-        email: 'contact@clysyscodeX.com',
+        email: 'contact@clysyscodeX.com', 
         phone: '+261 (0) 38 06 900 32',
         address: 'Antananarivo, Madagascar',
       },
