@@ -3,7 +3,6 @@ import { Language, t } from '@/lib/lang';
 import HeroSection from '@/components/sections/HeroSection';
 import ServicePillars from '@/components/sections/ServicePillars';
 import WhyChooseUs from '@/components/sections/WhyChooseUs';
-import CTABanner from '@/components/sections/CTABanner';
 
 export const metadata: Metadata = {
   title: 'CLYSYS CODEX - Digital Excellence',
@@ -19,7 +18,6 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
       <HeroSection lang={lang} />
       <ServicePillars lang={lang} />
       <WhyChooseUs lang={lang} />
-      <CTABanner lang={lang} />
     </>
   );
 }

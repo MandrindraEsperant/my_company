@@ -2,7 +2,8 @@
 
 import { useEffect, useRef, useState } from 'react';
 import { Language, t } from '@/lib/lang';
-import { Users, Zap, GitBranch, Clock } from 'lucide-react';
+import { Users, Zap, GitBranch, Clock, ArrowRight } from 'lucide-react';
+import { Button } from '../ui/button';
 import Link from 'next/link';
 
 /* ── helpers ── */
@@ -323,37 +324,46 @@ export default function WhyChooseUs({ lang }: { lang: Language }) {
           </div>
         </div>
 
+
         {/* ── Bottom CTA banner ── */}
-        <div
-          ref={bannerRef}
-          className="relative mt-20 rounded-2xl overflow-hidden p-8 md:p-12 text-center"
-          style={{
-            opacity: bannerInView ? 1 : 0,
-            transform: bannerInView ? 'translateY(0)' : 'translateY(24px)',
-            transition: 'opacity 0.7s ease 0.2s, transform 0.7s ease 0.2s',
-            background: 'linear-gradient(135deg, #060f1c, #08121f)',
-            border: '1px solid #0f2030',
-          }}
-        >
-          {/* Banner glow */}
-          <div className="absolute inset-0 opacity-10"
-            style={{ background: 'linear-gradient(135deg, #00D9FF20, transparent 50%, #7B2CBF20)' }} />
-
-          <p className="text-[#7a93b0] text-sm uppercase tracking-widest mb-2">
-            {t(lang, 'whyChoose.banner.eyebrow') || 'Prêt à démarrer ?'}
-          </p>
-          <h3 className="text-2xl md:text-3xl font-bold text-white mb-6">
-            {t(lang, 'whyChoose.banner.title') || 'Discutons de votre projet'}
-          </h3>
-          <Link href={`/${lang}/contact`}
-            className="inline-flex items-center gap-2 px-8 py-3 rounded-xl font-semibold text-white text-sm transition-all duration-300 hover:shadow-[0_0_30px_rgba(0,217,255,0.3)] hover:scale-105"
-            style={{ background: 'linear-gradient(135deg, #00D9FF, #7B2CBF)' }}
+        <div className="mt-20">
+          <div
+            ref={bannerRef}
+            className="relative rounded-2xl overflow-hidden p-8 md:p-12 text-center"
+            style={{
+              background: 'linear-gradient(135deg, #060f1c, #08121f)',
+              border: '1px solid #0f2030',
+            }}
           >
-            {t(lang, 'whyChoose.banner.cta') || 'Contactez-nous'}
-          </Link>
+            {/* Banner glow */}
+            <div
+              className="absolute inset-0 opacity-10"
+              style={{ background: 'linear-gradient(135deg, #00D9FF20, transparent 50%, #7B2CBF20)' }}
+            />
 
+            <div
+              style={{
+                opacity: bannerInView ? 1 : 0,
+                transform: bannerInView ? 'translateY(0)' : 'translateY(24px)',
+                transition: 'opacity 0.7s ease 0.2s, transform 0.7s ease 0.2s',
+              }}
+            >
+              <p className="text-[#7a93b0] text-sm uppercase tracking-widest mb-2">
+                {t(lang, 'whyChoose.banner.eyebrow') || 'Prêt à démarrer ?'}
+              </p>
+              <h3 className="text-2xl md:text-3xl font-bold text-white mb-6">
+                {t(lang, 'whyChoose.banner.title') || 'Discutons de votre projet'}
+              </h3>
+              <Link
+                href={`/${lang}/contact`}
+                className="inline-flex items-center gap-2 px-8 py-3 rounded-xl font-semibold text-white text-sm transition-all duration-300 hover:shadow-[0_0_30px_rgba(0,217,255,0.3)] hover:scale-105"
+                style={{ background: 'linear-gradient(135deg, #00D9FF, #7B2CBF)' }}
+              >
+                {t(lang, 'whyChoose.banner.cta') || 'Contactez-nous'}
+              </Link>
+            </div>
+          </div>
         </div>
-
       </div>
 
       <div className="absolute bottom-0 inset-x-0 h-px bg-gradient-to-r from-transparent via-[#00D9FF]/20 to-transparent" />
