@@ -2,7 +2,6 @@ import Link from 'next/link';
 import { Language, t } from '@/lib/lang';
 import { Calendar, User, ArrowRight } from 'lucide-react';
 
-export const runtime = 'edge';
 export default async function BlogPage({ params }: { params: Promise<{ lang: string }> }) {
   const { lang: rawLang } = await params;
   const lang = (rawLang === 'en' || rawLang === 'fr' ? rawLang : 'en') as Language;

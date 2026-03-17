@@ -5,11 +5,11 @@ import Footer from '@/components/common/Footer';
 
 export const runtime = 'edge';
 
-export async function generateStaticParams() {
-  return SUPPORTED_LANGS.map((lang) => ({
-    lang,
-  }));
-}
+// export async function generateStaticParams() {
+//   return SUPPORTED_LANGS.map((lang) => ({
+//     lang,
+//   }));
+// }
 
 export const metadata: Metadata = {
   title: 'CLYSYS CODEX - Digital Excellence',
