@@ -3,6 +3,8 @@ import { getLang, SUPPORTED_LANGS } from '@/lib/lang';
 import Navbar from '@/components/common/Navbar';
 import Footer from '@/components/common/Footer';
 
+export const runtime = 'edge';
+
 export async function generateStaticParams() {
   return SUPPORTED_LANGS.map((lang) => ({
     lang,
